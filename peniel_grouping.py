@@ -113,19 +113,19 @@ leader_to_entry.grid(row=1, column=3)
 helper_from_label = Label(top_frame, text='Helpers from')
 helper_from_label.grid(row=2, column=0)
 helper_from_entry = Entry(top_frame)
+helper_from_entry.insert(END, "11")
 helper_from_entry.grid(row=2, column=1, padx=(10, 0))
 
 helper_to_label = Label(top_frame, text=' to ')
 helper_to_label.grid(row=2, column=2)
 helper_to_entry = Entry(top_frame)
-helper_to_entry.insert(END, "15")
 helper_to_entry.grid(row=2, column=3)
 
 # Attenders
 attender_from_label = Label(top_frame, text='Attenders from')
 attender_from_label.grid(row=3, column=0)
 attender_from_entry = Entry(top_frame)
-attender_from_entry.insert(END, "16")
+attender_from_entry.insert(END, "21")
 attender_from_entry.grid(row=3, column=1, padx=(10, 0))
 
 attender_to_label = Label(top_frame, text=' to ')
